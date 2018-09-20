@@ -47,7 +47,7 @@ char* strip(char* str) {
   result[i-first_non_space] = '\0';
 
   return result;
-free(result);
+	free(result);
 }
 
 /*
